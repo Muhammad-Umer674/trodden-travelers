@@ -1,0 +1,62 @@
+{
+  "collections": {
+    "bookings": {
+      "schema": {
+        "fullName": "string",
+        "email": "string",
+        "phone": "string",
+        "serviceId": "string",
+        "destinations": "array",
+        "durationDays": "number",
+        "travelers": "string_or_number",
+        "accommodationType": "string",
+        "travelMode": "string",
+        "startDate": "string",
+        "specialRequests": "string",
+        "customDays": "array",
+        "createdAt": "timestamp"
+      },
+      "indexes": []
+    },
+    "reviews": {
+      "schema": {
+        "fullName": "string",
+        "rating": "number",
+        "tripName": "string",
+        "comment": "string",
+        "tripMonth": "string",
+        "createdAt": "timestamp"
+      },
+      "indexes": []
+    },
+    "tours": {
+      "schema": {
+        "id": "string",
+        "title": "string",
+        "tag": "string",
+        "durationDays": "number",
+        "priceSingle": "number",
+        "priceCouple": "number",
+        "departureDays": "array",
+        "departureFrom": "string",
+        "category": "string",
+        "image": "string",
+        "pickups": "array",
+        "places": "array",
+        "servicesIncluded": "array",
+        "servicesExcluded": "array",
+        "itinerary": "array",
+        "kidsPolicy": "string",
+        "cancellationPolicy": "string",
+        "createdAt": "timestamp"
+      },
+      "indexes": []
+    },
+    "settings": {
+      "schema": {
+        "passcode": "string"
+      },
+      "indexes": []
+    }
+  }
+}

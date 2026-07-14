@@ -1,0 +1,6 @@
+{
+  "name": "Trodden Travelers",
+  "description": "Premium tourism and adventure agency in Pakistan featuring customized itineraries, interactive destination maps, and luxury travel planning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,8 @@
+{
+  "firestore": [
+    {
+      "database": "ai-studio-troddentravelers-769b9667-660e-4e84-a23a-6ec971e362ad",
+      "rules": "firestore.rules"
+    }
+  ]
+}
