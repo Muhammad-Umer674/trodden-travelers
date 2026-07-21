@@ -151,7 +151,7 @@ export default function App() {
             />
             <div>
               <h1 className="text-lg font-extrabold text-zinc-900 font-display tracking-tight leading-none flex items-center gap-1">
-                Adventure With Bilal
+                Northern Wonders
               </h1>
               <span className="text-[10px] font-mono tracking-widest text-emerald-600 uppercase font-black">Mountains Are Calling</span>
             </div>
@@ -590,7 +590,7 @@ export default function App() {
                 alt="Trodden Travelers Logo" 
               />
               <h1 className="text-base font-extrabold text-zinc-900 font-display tracking-tight leading-none">
-                Adventure With Bilal
+                Northern Wonders
               </h1>
             </div>
             <p className="text-xs text-zinc-600 leading-relaxed max-w-sm">
